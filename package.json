@@ -1,0 +1,20 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "leetcode solution by javascript",
+  "main": "index.js",
+  "scripts": {
+    "github": "sh deploy.sh",
+    "debug": "node --inspect-brk=5858 ./two-sum.js"
+  },
+  "keywords": [
+    "leetcode",
+    "javascript"
+  ],
+  "author": "springleo",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^1.2.1",
+    "prettier": "^1.15.3"
+  }
+}
