@@ -1,20 +1,24 @@
 {
-  "name": "leetcode",
-  "version": "1.0.0",
-  "description": "leetcode solution by javascript",
-  "main": "index.js",
-  "scripts": {
-    "github": "sh deploy.sh",
-    "debug": "node --inspect-brk=5858 ./two-sum.js"
-  },
-  "keywords": [
-    "leetcode",
-    "javascript"
-  ],
-  "author": "springleo",
-  "license": "MIT",
-  "devDependencies": {
-    "husky": "^1.2.1",
-    "prettier": "^1.15.3"
-  }
+    "name": "leetcode",
+    "version": "1.0.0",
+    "description": "leetcode solution by javascript",
+    "main": "index.js",
+    "scripts": {
+        "github": "sh deploy.sh",
+        "debug": "node --inspect-brk=5858 ./two-sum.js",
+        "format": "prettier --write './**/*.{js,ts,vue,json}'"
+    },
+    "husky": {
+        "pre-commit": "npm run format"
+    },
+    "keywords": [
+        "leetcode",
+        "javascript"
+    ],
+    "author": "springleo",
+    "license": "MIT",
+    "devDependencies": {
+        "husky": "^1.3.1",
+        "prettier": "^1.15.3"
+    }
 }

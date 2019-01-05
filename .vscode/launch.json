@@ -10,10 +10,7 @@
             "name": "Launch via NPM",
             "runtimeExecutable": "npm",
             "protocol": "inspector",
-            "runtimeArgs": [
-                "run-script",
-                "debug"
-            ],
+            "runtimeArgs": ["run-script", "debug"],
             "port": 5858
         }
     ]
