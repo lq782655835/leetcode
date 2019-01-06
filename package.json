@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "github": "sh deploy.sh",
-        "debug": "node --inspect-brk=5858 ./two-sum.js",
+        "debug": "node --inspect-brk=5858 ./src/longest-substring-without-repeating-characters.js",
         "format": "prettier --write './**/*.{js,ts,vue,json}'"
     },
     "husky": {
