@@ -19,6 +19,7 @@
  * @param {number[]} nums2
  * @return {number[]}
  * 解题思路：暴力拆解，分别计算每项值，在两个数组中重复的次数，取小值。
+ * https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/
  */
 var intersect = function(nums1, nums2) {
     var obj = {}
