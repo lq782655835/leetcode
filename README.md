@@ -1,9 +1,13 @@
-二分法
+# LeetCode算法题解
+
+个人算法实践，详细注释，提供多种解体方案和思路。
+
+## 二分法
 
 二分法一般针对已经排好序的数组。
 
-二分法套路
 ``` js
+// 二分法套路
 function dichotomy() {
     // 左边界
     var left ...
@@ -28,3 +32,13 @@ function dichotomy() {
     return ans
 }
 ```
+
+### 算法题
+
+* [二分查找](./src/dichotomy/binary-search.js)
+* [搜索插入位置](./src/dichotomy/search-insert-position.js)
+* [x 的平方根](./src/dichotomy/sqrtx.js)
+
+## 技巧题
+* [两数之和](./src/skill/two-sum.js)
+* [两数之和 II - 输入有序数组](./src/skill/two-sum-ii-input-array-is-sorted.js)
