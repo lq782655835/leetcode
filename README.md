@@ -38,6 +38,7 @@ function dichotomy() {
 * [二分查找](./src/dichotomy/binary-search.js)
 * [搜索插入位置](./src/dichotomy/search-insert-position.js)
 * [x 的平方根](./src/dichotomy/sqrtx.js)
+* [第一个错误的版本](./src/dichotomy/first-bad-version.js)
 
 ## 技巧题
 * [两数之和](./src/skill/two-sum.js)
