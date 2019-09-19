@@ -39,6 +39,7 @@ function dichotomy() {
 * [搜索插入位置](./src/dichotomy/search-insert-position.js)
 * [x 的平方根](./src/dichotomy/sqrtx.js)
 * [第一个错误的版本](./src/dichotomy/first-bad-version.js)
+* [寻找比目标字母大的最小字母](./src/dichotomy/find-smallest-letter-greater-than-target.js)
 
 ## 技巧题
 * [两数之和](./src/skill/two-sum.js)
