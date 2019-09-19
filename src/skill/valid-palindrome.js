@@ -6,12 +6,19 @@
 
 // 输入: "A man, a plan, a canal: Panama"
 // 输出: true
+// 示例 2:
+
+// 输入: "race a car"
+// 输出: false
+
+// 来源：力扣（LeetCode）
+// 链接：https://leetcode-cn.com/problems/valid-palindrome
+// 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
 /**
  * @param {string} s
  * @return {boolean}
  * 解题思路：去除无用数据，再反转匹配判断回文函数
- * https://leetcode-cn.com/problems/valid-palindrome/
  */
 var isPalindrome = function(s) {
     let pureStr = s.replace(/[^0-9a-zA-Z]/g, '').toLowerCase()
