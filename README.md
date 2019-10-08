@@ -39,6 +39,12 @@ function dichotomy() {
 * [第一个错误的版本](./src/dichotomy/first-bad-version.js)
 * [寻找比目标字母大的最小字母](./src/dichotomy/find-smallest-letter-greater-than-target.js)
 
+## 递归
+
+递归，需要想好跳出递归的条件
+
+* [两数的最大公约数](./src/recursion/max-common-divisor.js)
+
 ## 技巧题
 
 许多算法题，除了数据结构外，还有许多是解题思路。换个思维方式或许有更多解法。
@@ -49,3 +55,7 @@ function dichotomy() {
 * [验证回文串](./src/skill/valid-palindrome.js)
 * [反转字符串](./src/skill/reverse-string.js)
 * [排列硬币]('./src/skill/arranging-coins.js)
+
+## String
+
+* [实现strStr()](./src/string/implement-strstr.js) 即实现js中indexOf
