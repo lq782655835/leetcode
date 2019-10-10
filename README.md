@@ -59,3 +59,4 @@ function dichotomy() {
 ## String
 
 * [实现strStr()](./src/string/implement-strstr.js) 即实现js中indexOf
+* [反转字符串中的元音字母](./src/string/reverse-vowels-of-a-string.js) 双指针法
