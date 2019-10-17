@@ -33,7 +33,7 @@ function dichotomy() {
 }
 ```
 
-* [二分查找](./src/dichotomy/binary-search.js)
+* [二分查找](./src/dichotomy/binary-search.js)<sup>折半搜索</sup>
 * [搜索插入位置](./src/dichotomy/search-insert-position.js)
 * [x 的平方根](./src/dichotomy/sqrtx.js)
 * [第一个错误的版本](./src/dichotomy/first-bad-version.js)
@@ -43,7 +43,7 @@ function dichotomy() {
 
 递归，需要想好跳出递归的条件
 
-* [两数的最大公约数](./src/recursion/max-common-divisor.js)
+* [两数的最大公约数](./src/recursion/max-common-divisor.js)<sup>递归</sup>
 
 ## 技巧题
 
@@ -59,4 +59,9 @@ function dichotomy() {
 ## String
 
 * [实现strStr()](./src/string/implement-strstr.js) 即实现js中indexOf
-* [反转字符串中的元音字母](./src/string/reverse-vowels-of-a-string.js) 双指针法
+* [反转字符串中的元音字母](./src/string/reverse-vowels-of-a-string.js)<sup>双指针法</sup>
+
+## 二叉树
+
+* [二叉树的最大深度](./src/tree/maximum-depth-of-binary-tree.js)<sup>递归BFS</sup><sup>队列BFS</sup>
+* [二叉树的最小深度](./src/tree/minimum-depth-of-binary-tre.js)<sup>递归BFS</sup><sup>队列BFS</sup>
