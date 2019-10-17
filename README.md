@@ -49,7 +49,7 @@ function dichotomy() {
 
 许多算法题，除了数据结构外，还有许多是解题思路。换个思维方式或许有更多解法。
 
-* [两数之和](./src/skill/two-sum.js)
+* [两数之和](./src/skill/two-sum.js)<sup>技巧</sup>
 * [两数之和 II - 输入有序数组](./src/skill/two-sum-ii-input-array-is-sorted.js)
 * [回文数](./src/skill/palindrome-number.js)
 * [验证回文串](./src/skill/valid-palindrome.js)
@@ -64,4 +64,6 @@ function dichotomy() {
 ## 二叉树
 
 * [二叉树的最大深度](./src/tree/maximum-depth-of-binary-tree.js)<sup>递归BFS</sup><sup>队列BFS</sup>
-* [二叉树的最小深度](./src/tree/minimum-depth-of-binary-tre.js)<sup>递归BFS</sup><sup>队列BFS</sup>
+* [二叉树的最小深度](./src/tree/minimum-depth-of-binary-tree.js)<sup>递归BFS</sup><sup>队列BFS</sup>
+* [相同的树](./src/tree/same-tree.js)<sup>递归</sup>
+* [对称二叉树](./src/tree/symmetric-tree.js)<sup>递归</sup><sup>技巧</sup>
