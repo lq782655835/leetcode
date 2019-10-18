@@ -2,6 +2,38 @@
 
 ![https://miro.medium.com/max/640/0*miG6xdyYzdvrB67S.gif]()
 
+## 递归遍历
+
+* 前序遍历：根结点 ---> 左子树 ---> 右子树
+* 中序遍历：左子树---> 根结点 ---> 右子树
+* 后序遍历：左子树 ---> 右子树 ---> 根结点
+
+![](https://img-blog.csdn.net/20150204101904649?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvTXlfSm9icw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)
+
+* 前序遍历：1  2  4  5  7  8  3  6
+* 中序遍历：4  2  7  5  8  1  3  6
+* 后序遍历：4  7  8  5  2  6  3  1
+
+``` js
+// 前序遍历：根结点 ---> 左子树 ---> 右子树
+function recursion(root) {
+    if (!root) return
+
+    console.log(root.val, '递归：前序遍历，先访问根节点')
+    recursion(root.left)
+    recursion(root.right)
+}
+
+// 中序遍历：左子树---> 根结点 ---> 右子树
+function recursion(root) {
+    if (!root) return
+
+    recursion(root.left)
+    console.log(root.val, '递归：中序遍历')
+    recursion(root.right)
+}
+```
+
 ## 基于栈的深度优先
 
 栈：后进先出，适合先深度left,中间的right都保存到栈中
@@ -94,3 +126,4 @@ function BFS_Search_By_Pure_Queue(searchVal) {
 ## 参考资料
 
 * https://medium.com/@kenny.hom27/breadth-first-vs-depth-first-tree-traversal-in-javascript-48df2ebfc6d1
+* https://blog.csdn.net/My_Jobs/article/details/43451187

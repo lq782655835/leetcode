@@ -63,7 +63,9 @@ function dichotomy() {
 
 ## 二叉树
 
+* [定义二叉搜索树](./src/tree/BinarySearchTree.js)<sup>递归</sup>
 * [二叉树的最大深度](./src/tree/maximum-depth-of-binary-tree.js)<sup>递归BFS</sup><sup>队列BFS</sup>
 * [二叉树的最小深度](./src/tree/minimum-depth-of-binary-tree.js)<sup>递归BFS</sup><sup>队列BFS</sup>
 * [相同的树](./src/tree/same-tree.js)<sup>递归</sup>
 * [对称二叉树](./src/tree/symmetric-tree.js)<sup>递归</sup><sup>技巧</sup>
+* [二叉搜索树中的搜索](./src/tree/search-in-a-binary-search-tree.js)<sup>递归</sup>
