@@ -19,29 +19,34 @@
 function recursion(root) {
     if (!root) return
 
-    console.log(root.val, '递归：前序遍历，先访问根节点')
-    recursion(root.left)
-    recursion(root.right)
+    let { left, right, val } = root
+    console.log(val, '递归：前序遍历，先访问根节点')
+    recursion(left)
+    recursion(right)
 }
 
 // 中序遍历：左子树---> 根结点 ---> 右子树
 function recursion(root) {
     if (!root) return
 
-    recursion(root.left)
-    console.log(root.val, '递归：中序遍历')
-    recursion(root.right)
+    let { left, right, val } = root
+    recursion(left)
+    console.log(val, '递归：中序遍历')
+    recursion(right)
 }
 
 // 后序遍历：左子树 ---> 右子树 ---> 根结点
 function recursion(root) {
     if (!root) return
 
-    recursion(root.left)
-    recursion(root.right)
-    console.log(root.val, '递归：后序遍历')
+    let { left, right, val } = root
+    recursion(left)
+    recursion(right)
+    console.log(val, '递归：后序遍历')
 }
 ```
+
+变通：给定一个二叉树，返回所有从根节点到叶子节点的路径？ [答案](https://github.com/lq782655835/leetcode/blob/master/src/tree/depth-first-search/binary-tree-paths.js)
 
 ## 2. 基于栈的深度优先
 
@@ -92,7 +97,7 @@ function BFS_By_Queue(root) {
 }
 ```
 
-变通：计算二叉树的最大深度？ [答案](./maximum-depth-of-binary-tree.js)
+变通：计算二叉树的最大深度？ [答案](https://github.com/lq782655835/leetcode/blob/master/src/tree/maximum-depth-of-binary-tree.js)
 
 ## 4. 思考题
 
