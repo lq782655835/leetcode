@@ -1,8 +1,8 @@
 # 树的深度优先遍历与广度优先遍历
 
-![https://miro.medium.com/max/640/0*miG6xdyYzdvrB67S.gif]()
+![](https://miro.medium.com/max/640/0*miG6xdyYzdvrB67S.gif)
 
-## 递归遍历
+## 1. 递归遍历
 
 * 前序遍历：根结点 ---> 左子树 ---> 右子树
 * 中序遍历：左子树---> 根结点 ---> 右子树
@@ -15,7 +15,7 @@
 * 后序遍历：4  7  8  5  2  6  3  1
 
 ``` js
-// 前序遍历：根结点 ---> 左子树 ---> 右子树
+// 前序遍历：根结点 ---> 左子树 ---> 右子树（常用的深度优先遍历）
 function recursion(root) {
     if (!root) return
 
@@ -32,9 +32,18 @@ function recursion(root) {
     console.log(root.val, '递归：中序遍历')
     recursion(root.right)
 }
+
+// 后序遍历：左子树 ---> 右子树 ---> 根结点
+function recursion(root) {
+    if (!root) return
+
+    recursion(root.left)
+    recursion(root.right)
+    console.log(root.val, '递归：后序遍历')
+}
 ```
 
-## 基于栈的深度优先
+## 2. 基于栈的深度优先
 
 栈：后进先出，适合先深度left,中间的right都保存到栈中
 
@@ -67,7 +76,7 @@ function DFS_By_Stack(root) {
 }
 ```
 
-## 基于队列的广度优先
+## 3. 基于队列的广度优先
 
 ``` js
 function BFS_By_Queue(root) {
@@ -85,7 +94,7 @@ function BFS_By_Queue(root) {
 
 变通：计算二叉树的最大深度？ [答案](./maximum-depth-of-binary-tree.js)
 
-## 思考题
+## 4. 思考题
 
 思考题： Node节点变为{ val, children} （更符合现实案例）
 
