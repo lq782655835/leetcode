@@ -39,30 +39,9 @@ function dichotomy() {
 * [第一个错误的版本](./src/dichotomy/first-bad-version.js)
 * [寻找比目标字母大的最小字母](./src/dichotomy/find-smallest-letter-greater-than-target.js)
 
-## 递归
-
-递归，需要想好跳出递归的条件
-
-* [两数的最大公约数](./src/recursion/max-common-divisor.js)<sup>递归</sup>
-
-## 技巧题
-
-许多算法题，除了数据结构外，还有许多是解题思路。换个思维方式或许有更多解法。
-
-* [两数之和](./src/skill/two-sum.js)<sup>技巧</sup>
-* [两数之和 II - 输入有序数组](./src/skill/two-sum-ii-input-array-is-sorted.js)
-* [回文数](./src/skill/palindrome-number.js)
-* [验证回文串](./src/skill/valid-palindrome.js)
-* [反转字符串](./src/skill/reverse-string.js)
-* [排列硬币]('./src/skill/arranging-coins.js)
-
-## String
-
-* [实现strStr()](./src/string/implement-strstr.js) 即实现js中indexOf
-* [反转字符串中的元音字母](./src/string/reverse-vowels-of-a-string.js)<sup>双指针法</sup>
-* [字符串解码](./src/string/decode-string.js)<sup>栈</sup>
-
 ## 二叉树
+
+总结：[二叉树的深度优先遍历与广度优先遍历](./tree/README.md)
 
 * [定义二叉搜索树](./src/tree/BinarySearchTree.js)<sup>递归</sup>
 * [相同的树](./src/tree/same-tree.js)<sup>递归</sup>
@@ -81,3 +60,29 @@ function dichotomy() {
     * [二叉树的层次遍历 II](./src/tree/breadth-first-search/binary-tree-level-order-traversal-ii.js)<sup>队列BFS</sup>
 * [二叉树的最大深度](./src/tree/maximum-depth-of-binary-tree.js)<sup>递归BFS、</sup><sup>队列BFS</sup>
 * [二叉树的最小深度](./src/tree/minimum-depth-of-binary-tree.js)<sup>递归BFS、</sup><sup>队列BFS</sup>
+
+## String
+
+* [回文数](./src/string/palindrome-number.js)<sup>技巧、</sup><sup>双指针法</sup>
+* [125.验证回文串](./src/string/valid-palindrome.js)<sup>技巧、</sup><sup>双指针法</sup>
+* [反转字符串中的元音字母](./src/string/reverse-vowels-of-a-string.js)<sup>双指针法</sup>
+* [字符串解码](./src/string/decode-string.js)<sup>栈</sup>
+* [实现strStr()](./src/string/implement-strstr.js) 即实现js中indexOf
+* [字符串相加](./src/string/add-strings.js)
+* [3.无重复字符的最长子串](./src/string/longest-substring-without-repeating-characters.js)
+* [383. 赎金信](./src/string/ransom-note.js)<sup>hashmap</sup>
+
+## 技巧题
+
+许多算法题，除了数据结构外，还有许多是解题思路。换个思维方式或许有更多解法。
+
+* [两数之和](./src/skill/two-sum.js)<sup>技巧、</sup><sup>hashmap</sup>
+* [两数之和 II - 输入有序数组](./src/skill/two-sum-ii-input-array-is-sorted.js)
+* [反转字符串](./src/skill/reverse-string.js)
+* [排列硬币]('./src/skill/arranging-coins.js)
+
+## 递归
+
+递归，需要想好跳出递归的条件
+
+* [两数的最大公约数](./src/recursion/max-common-divisor.js)<sup>递归</sup>

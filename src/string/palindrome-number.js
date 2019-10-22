@@ -22,9 +22,23 @@
 /**
  * @param {number} x
  * @return {boolean}
- * 解题思路：回文文字的特征是，文字反转依然等于文字
  * https://leetcode-cn.com/problems/palindrome-number/
  */
 var isPalindrome = function(x) {
-    return String(x) === String(x).split('').reverse().join('')
+    // 方法一：js技巧：回文文字的特征是，文字反转依然等于文字
+    // return String(x) === String(x).split('').reverse().join('')
+
+    // 方法二：双指针法
+    // 判断左右字符是否相等
+    x = x + ''
+    let i = 0
+    let j = x.length - 1
+    while(i < j) {
+        if (x[i] !== x[j]) {
+            return false
+        }
+        i++
+        j--
+    }
+    return true
 };
