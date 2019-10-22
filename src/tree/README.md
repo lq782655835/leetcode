@@ -52,9 +52,34 @@ function recursion(root) {
 
 栈：后进先出，适合先深度left,中间的right都保存到栈中
 
+以下代码都是基于栈数据结构的前序遍历（前序遍历最好理解）
+
 ``` js
 // 假设节点：Node { left, right, val}
 function DFS_By_Stack(root) {
+    // 方法一：栈，后进先出，
+    if (root === null) return []
+
+    let stack = [root]
+    while(stack.length) {
+        let { left, right, val } = stack.pop()
+        console.log(val, 'serach by dfs')
+        right && stack.push(right) // 先把right存入栈中
+        left && stack.push(left)
+    }
+
+    // 方法二：变种的栈实现DFS（js语言中，数组同时实现了队列和栈）
+    if(root == null) return []
+
+    let stack = [root]
+    while(stack.length) {
+        let { left, right, val } = stack.shift()
+        console.log(val, 'serach by dfs')
+        right && queue.unshift(right)
+        left && queue.unshift(left)
+    }
+
+    // 方法三：通用栈，本质上和方法一是一样的
     if (root === null) return
 
     let stack = []
@@ -69,15 +94,6 @@ function DFS_By_Stack(root) {
             currentNode = stack.pop()
         }
     }
-
-    // or 变种的栈实现DFS
-    // let queue = [root]
-    // while(queue.length) {
-    //     let { left, right, val } = queue.shift()
-    //     console.log(val, 'serach by dfs')
-    //     right && queue.unshift(right)
-    //     left && queue.unshift(left)
-    // }
 }
 ```
 

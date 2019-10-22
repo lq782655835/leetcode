@@ -60,6 +60,7 @@ function dichotomy() {
 
 * [实现strStr()](./src/string/implement-strstr.js) 即实现js中indexOf
 * [反转字符串中的元音字母](./src/string/reverse-vowels-of-a-string.js)<sup>双指针法</sup>
+* [字符串解码](./src/string/decode-string.js)<sup>栈</sup>
 
 ## 二叉树
 
@@ -68,10 +69,15 @@ function dichotomy() {
 * [对称二叉树](./src/tree/symmetric-tree.js)<sup>递归、</sup><sup>技巧</sup>
 * [二叉搜索树中的搜索](./src/tree/search-in-a-binary-search-tree.js)<sup>递归</sup>
 * [判断二叉树是否是高度平衡的二叉树](./src/tree/balanced-binary-tree.js)<sup>递归</sup>
-* depth-first-search
+* base-traverse 遍历
+    * [二叉树的前序遍历](./src/tree/base-traverse/binary-tree-preorder-traversal.js)<sup>递归、</sup><sup>栈</sup>
+    * [二叉树的中序遍历](./src/tree/base-traverse/binary-tree-inorder-traversal.js)<sup>递归</sup>
+    * [ 将有序数组转换为二叉搜索树](./src/tree/base-traverse/convert-sorted-array-to-binary-search-tree.js)<sup>递归（分治）、</sup><sup>中序遍历的逆操作</sup>
+* depth-first-search 深度优先
     * [给定一个二叉树，返回所有从根节点到叶子节点的路径](./src/tree/depth-first-search/binary-tree-paths.js)<sup>DFS-递归</sup>
     * [路径总和](./src/tree/depth-first-search/path-sum.js)<sup>DFS-递归</sup>
     * [路径总和2](./src/tree/depth-first-search/path-sum-ii.js)<sup>DFS-递归</sup>
+* breadth-first-search 广度优先
+    * [二叉树的层次遍历 II](./src/tree/breadth-first-search/binary-tree-level-order-traversal-ii.js)<sup>队列BFS</sup>
 * [二叉树的最大深度](./src/tree/maximum-depth-of-binary-tree.js)<sup>递归BFS、</sup><sup>队列BFS</sup>
 * [二叉树的最小深度](./src/tree/minimum-depth-of-binary-tree.js)<sup>递归BFS、</sup><sup>队列BFS</sup>
-* [二叉树的层次遍历 II](./src/tree/binary-tree-level-order-traversal-ii.js)<sup>队列BFS</sup>
