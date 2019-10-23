@@ -78,7 +78,7 @@ function dichotomy() {
 
 * [两数之和](./src/skill/two-sum.js)<sup>技巧、</sup><sup>hashmap</sup>
 * [两数之和 II - 输入有序数组](./src/skill/two-sum-ii-input-array-is-sorted.js)
-* [反转字符串](./src/skill/reverse-string.js)
+* [反转字符串](./src/skill/reverse-string.js)<sup>双指针法</sup>
 * [排列硬币]('./src/skill/arranging-coins.js)
 
 ## 递归

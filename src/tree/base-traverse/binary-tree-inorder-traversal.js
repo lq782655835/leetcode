@@ -49,7 +49,7 @@ var inorderTraversal = function(root) {
     // order(root, result)
     // return result
 
-    // 栈实现中序遍历
+    // 方法二：栈实现中序遍历。 左子树 - 根节点 - 右子树
     if (root === null) return []
 
     let stack = []
@@ -57,14 +57,15 @@ var inorderTraversal = function(root) {
     let result = []
     while(currentNode || stack.length) {
         if (currentNode) {
-            // left一直入栈
+            // left一直入栈，直到没有左子节点
             stack.push(currentNode)
             currentNode = currentNode.left
         } else {
+            // 左子节点全部入栈后，开始出栈展示
+            // 出栈后查看当前节点右子节点，有则入栈；没有继续上一层出栈
             currentNode = stack.pop()
             result.push(currentNode.val)
-            // 切换到right
-            currentNode = currentNode.right
+            currentNode = currentNode.right // 关键
         }
     }
     return result
