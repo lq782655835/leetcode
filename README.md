@@ -51,6 +51,7 @@ function dichotomy() {
 * base-traverse 遍历
     * [二叉树的前序遍历](./src/tree/base-traverse/binary-tree-preorder-traversal.js)<sup>递归、</sup><sup>栈</sup>
     * [二叉树的中序遍历](./src/tree/base-traverse/binary-tree-inorder-traversal.js)<sup>递归</sup>
+    * [二叉树的后序遍历](./src/tree/base-traverse/binary-tree-postorder-traversal.js)<sup>递归、</sup><sup>栈</sup>
     * [ 将有序数组转换为二叉搜索树](./src/tree/base-traverse/convert-sorted-array-to-binary-search-tree.js)<sup>递归（分治）、</sup><sup>中序遍历的逆操作</sup>
 * depth-first-search 深度优先
     * [给定一个二叉树，返回所有从根节点到叶子节点的路径](./src/tree/depth-first-search/binary-tree-paths.js)<sup>DFS-递归</sup>
