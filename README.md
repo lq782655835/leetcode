@@ -82,8 +82,12 @@ function dichotomy() {
 * [反转字符串](./src/skill/reverse-string.js)<sup>双指针法</sup>
 * [排列硬币]('./src/skill/arranging-coins.js)
 
-## 递归
+## 分治（递归）
 
 递归，需要想好跳出递归的条件
 
 * [两数的最大公约数](./src/recursion/max-common-divisor.js)<sup>递归</sup>
+
+## 动态规划
+
+* [1143. 最长公共子序列](./src/dynamic-programming/longest-common-subsequence.js)<sup>递归、</sup><sup>动态规划</sup>
