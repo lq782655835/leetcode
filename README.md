@@ -84,10 +84,24 @@ function dichotomy() {
 
 ## 分治（递归）
 
-递归，需要想好跳出递归的条件
+递归是分治算法思想最常用方法。
 
+递归的三大要素:
+* 第一要素：明确你这个函数想要干什么
+* 第二要素：寻找递归结束条件
+* 第三要素：找出函数的等价关系式(不断缩小参数的范围)
+
+有关递归的一些优化思路:
+1. 考虑是否重复计算
+2. 考虑是否可以自底向上
+
+* 简单案例理解
+    * [fibonacci](./src/recursion/fib.js)
+    * [小青蛙跳台阶](./src/recursion/step.js)
+* [翻转链表](./src/recursion/reverse-node-link.js)
 * [两数的最大公约数](./src/recursion/max-common-divisor.js)<sup>递归</sup>
 
 ## 动态规划
 
 * [1143. 最长公共子序列](./src/dynamic-programming/longest-common-subsequence.js)<sup>递归、</sup><sup>动态规划</sup>
+* [字符串最小编辑距离](./src/dynamic-programming/string-min-operation.js)<sup>动态规划</sup>
