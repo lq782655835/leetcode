@@ -103,5 +103,6 @@ function dichotomy() {
 
 ## 动态规划
 
+* [经典01背包问题](./src/dynamic-programming/package.js)<sup>递归、</sup><sup>动态规划</sup>
 * [1143. 最长公共子序列](./src/dynamic-programming/longest-common-subsequence.js)<sup>递归、</sup><sup>动态规划</sup>
 * [字符串最小编辑距离](./src/dynamic-programming/string-min-operation.js)<sup>动态规划</sup>

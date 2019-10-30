@@ -45,7 +45,7 @@
  * @param {string} text1
  * @param {string} text2
  * @return {number}
- * 核心：S1[m] == S2[n]：
+ * 核心（解法方程式）：S1[m] == S2[n]：
 LCS(m,n) = 1 + LCS(m-1, n-1)
 S1[m] != S2[n]：
 LCS(m,n) = max( LCS(m-1, n), LCS(m, n-1) )
