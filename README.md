@@ -106,3 +106,8 @@ function dichotomy() {
 * [经典01背包问题](./src/dynamic-programming/package.js)<sup>递归、</sup><sup>动态规划</sup>
 * [1143. 最长公共子序列](./src/dynamic-programming/longest-common-subsequence.js)<sup>递归、</sup><sup>动态规划</sup>
 * [字符串最小编辑距离](./src/dynamic-programming/string-min-operation.js)<sup>动态规划</sup>
+
+
+## 其他资料
+* 数据结构和算法：https://www.youtube.com/watch?v=LqymUU_mRpw&list=PLljKjXpjNpgfX5tr-HY3HnwiXDM1WIzb-&index=43
+* 背包问题：https://www.youtube.com/watch?v=8LusJS5-AGo&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8
