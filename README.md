@@ -41,7 +41,7 @@ function dichotomy() {
 
 ## 二叉树
 
-总结：[二叉树的深度优先遍历与广度优先遍历](./tree/README.md)
+总结：[二叉树的深度优先遍历与广度优先遍历](./src/tree/README.md)
 
 * [定义二叉搜索树](./src/tree/BinarySearchTree.js)<sup>递归</sup>
 * [相同的树](./src/tree/same-tree.js)<sup>递归</sup>
@@ -107,7 +107,7 @@ function dichotomy() {
 * [1143. 最长公共子序列](./src/dynamic-programming/longest-common-subsequence.js)<sup>递归、</sup><sup>动态规划</sup>
 * [字符串最小编辑距离](./src/dynamic-programming/string-min-operation.js)<sup>动态规划</sup>
 
+## 参考
 
-## 其他资料
 * 数据结构和算法：https://www.youtube.com/watch?v=LqymUU_mRpw&list=PLljKjXpjNpgfX5tr-HY3HnwiXDM1WIzb-&index=43
 * 背包问题：https://www.youtube.com/watch?v=8LusJS5-AGo&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8
