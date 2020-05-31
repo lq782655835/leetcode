@@ -33,11 +33,15 @@ function dichotomy() {
 }
 ```
 
+更多[二分法技巧](./src/dichotomy/README.md)
+
 * [二分查找](./src/dichotomy/binary-search.js)<sup>折半搜索</sup>
 * [搜索插入位置](./src/dichotomy/search-insert-position.js)
 * [x 的平方根](./src/dichotomy/sqrtx.js)
 * [第一个错误的版本](./src/dichotomy/first-bad-version.js)
 * [寻找比目标字母大的最小字母](./src/dichotomy/find-smallest-letter-greater-than-target.js)
+* [33.搜索旋转排序数组](./src/dichotomy/33-search-in-rotated-sorted-array.js)
+* [153.寻找旋转排序数组中的最小值](./src/dichotomy/153-find-minimum-in-rotated-sorted-array.js)
 
 ## 二叉树
 
