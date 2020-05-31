@@ -2,6 +2,8 @@
 
 二分法一般针对已经排好序的数组。
 
+> 注意是left <= right,别忘了等于号
+
 二分法套路
 ``` js
 function dichotomy() {
