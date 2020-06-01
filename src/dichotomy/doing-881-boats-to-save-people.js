@@ -38,9 +38,24 @@
  * @return {number}
  */
 var numRescueBoats = function(people, limit) {
-
+    // 解题思路
+    // 1. 对给定数组进行升序排序
+    // 2. 初始化左右指针
+    // 3. 每次都用一个”最重的“和一个”最轻的“进行配对(重点)，如果二人重量小于Limit，则此时的”最轻的“上船，即（left++）。
+    // 不管”最轻的“是否上船，”最重的“都要上船，即（right--）并且所需船数量加一，即（num++）
+    people.sort((a, b) => (a - b));
+    var num = 0
+    let left = 0
+    let right = people.length - 1
+    while (left <= right) {
+        if ((people[left] + people[right]) <= limit) {
+        left++
+        }
+        right--
+        num++
+    }
+    return num
 };
-
 
 
 https://zhuanlan.zhihu.com/p/71643340
