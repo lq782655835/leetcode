@@ -17,10 +17,10 @@
  * https://leetcode-cn.com/problems/two-sum/
  */
 var twoSum = function(nums, target) {
-    // // 952s
+    // // 952s 方法一：暴露
     // return solution1(...arguments)
 
-    // 52ms
+    // 52ms 方法二： hashmap。如果是排序数组，第三种方法还可以使用双指针法
     return solution2(...arguments)
 }
 
