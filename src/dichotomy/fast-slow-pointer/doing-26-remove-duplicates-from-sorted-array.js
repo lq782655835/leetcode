@@ -39,3 +39,5 @@ var removeDuplicates = function (nums) {
     }
     return slow + 1;
   };
+
+// https://labuladong.gitbook.io/algo/gao-pin-mian-shi-xi-lie/ru-he-qu-chu-you-xu-shu-zu-de-zhong-fu-yuan-su

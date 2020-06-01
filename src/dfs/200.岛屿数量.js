@@ -36,6 +36,7 @@ var numIslands = function(grid) {
         if (grid[i] === undefined || grid[i][j] === undefined || grid[i][j] === '0') return
 
         grid[i][j] = '0'
+        // 上下左右递归，消除连在一起的1
         dfs(i, j-1)
         dfs(i, j + 1)
         dfs(i - 1, j)
