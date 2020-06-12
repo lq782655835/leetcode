@@ -46,7 +46,7 @@ var hasCycle = function(head) {
         slow = slow.next
         fast = fast.next.next
 
-        if (slow = fast) return ture
+        if (slow == fast) return true
     }
     return false
 };
