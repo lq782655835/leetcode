@@ -27,10 +27,12 @@
  */
 var maxArea = function(height) {
     let max = 0
+    let left = 0
+    let right = height.length - 1
     // 思路：双指针法，当左边
     while (left < right) {
         // 最大值最小值时，一定有个变量比对
-        max = Math.max(max, (height[right] - height[left]) * Math.min(height[right], height[left]))
+        max = Math.max(max, (right - left) * Math.min(height[right], height[left]))
         // 关键：右侧更高时，左侧前进（看有没有更高的）
         if (height[right] > height[left]) {
             left++
