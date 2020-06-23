@@ -4,6 +4,8 @@
 
 ## 二分查找
 
+专题文章：[双指针技巧总结](./src/dichotomy/README.md)
+
 二分法一般针对已经`排好序的数组`。
 
 ``` js
@@ -45,7 +47,7 @@ function dichotomy() {
 
 ## 二叉树
 
-总结：[二叉树的深度优先遍历与广度优先遍历](./src/tree/README.md)
+专题文章：[二叉树的深度优先遍历与广度优先遍历](./src/tree/README.md)
 
 * [定义二叉搜索树](./src/tree/BinarySearchTree.js)<sup>递归</sup>
 * [相同的树](./src/tree/same-tree.js)<sup>递归</sup>
@@ -113,5 +115,7 @@ function dichotomy() {
 
 ## 参考
 
-* 数据结构和算法：https://www.youtube.com/watch?v=LqymUU_mRpw&list=PLljKjXpjNpgfX5tr-HY3HnwiXDM1WIzb-&index=43
-* 背包问题：https://www.youtube.com/watch?v=8LusJS5-AGo&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8
+* [数据结构和算法](https://www.youtube.com/watch?v=LqymUU_mRpw&list=PLljKjXpjNpgfX5tr-HY3HnwiXDM1WIzb-&index=43)
+* [背包问题](https://www.youtube.com/watch?v=8LusJS5-AGo&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
+
+* [双指针技巧总结](https://labuladong.gitbook.io/algo/di-ling-zhang-bi-du-xi-lie/shuang-zhi-zhen-ji-qiao)
