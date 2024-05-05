@@ -48,8 +48,42 @@ var hasCycle = function(head) {
 
         if (slow == fast) return true
     }
-    return false
+    return false // 快指针先到达链表末尾，没有环
 };
 
 
 // https://labuladong.gitbook.io/algo/di-ling-zhang-bi-du-xi-lie/shuang-zhi-zhen-ji-qiao
+
+// // 更进一步，找到环的起点
+// // 核心是快指针是慢指针的2倍
+// /**
+// * @param {ListNode} head
+// * @return {ListNode}
+// */
+// var detectCycle = function(head) {
+//     let fast = head, slow = head;
+//     while (fast !== null && fast.next !== null) {
+//         fast = fast.next.next;
+//         slow = slow.next;
+//         if (fast === slow) {
+//             break;
+//         }
+//     }
+//     // 上面的代码类似 hasCycle 函数
+//     if (fast === null || fast.next === null) {
+//         // fast 遇到空指针说明没有环
+//         return null;
+//     }
+
+//     // 重新指向头结点
+//     slow = head;
+//     // 快慢指针同步前进，相交点就是环起点
+//     while (slow !== fast) {
+//         fast = fast.next;
+//         slow = slow.next;
+//     }
+//     return slow;
+// };
+
+// let head = ListNode.createCyclic([1,3,5,7,2,4], 2)
+// let result = detectCycle(head)
